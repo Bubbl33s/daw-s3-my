@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*............Header..................*/
+
+header{
+    color: #92383f;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px 5px 20px;
+}
+
+.titulo{
+    font: bold 50px Helvetica;
+}
+
+.logo{
+    width: 150px;
+}
+
+@media screen and (max-width: 628px) {
+    header, .logo{
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+/*............Menu..................*/
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: white;
+    background-color: #ff857a90;  
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.botones div a{
+    color: white;
+    font: bold 20px Helvetica;
+    line-height: 40px;
+} 
+
+.botones div a:hover{
+    background-color: white;
+}
+
+/*............Acordeon..................*/
+
+div.imagenes{
+    background-color: #ffc1a1;
+}
+
+.img{
+    height: 500px;
+}
+
+.img-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 350px;
+}
+
+.card > img {
+    height: 65%;
+}
+
+/* ............Footer................. */
+
+.pie-pagina {
+    width: 100%;
+    background-color: #712932;
+    padding: 0.5px 0; 
+}
+
+.pie-pagina .grupo1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px; 
+    padding: 5px 0; 
+}
+
+.caja-1 {
+    height: 6vw;
+}
+
+.pie-pagina .grupo1 .caja figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start; 
+}
+
+.pie-pagina .grupo1 .caja figure img {
+    width: 150px;
+}
+
+.pie-pagina .grupo1 .caja h2 {
+    color: white;
+    margin-bottom: 5px; 
+    font-size: 15px; 
+}
+
+.pie-pagina .grupo1 .caja p {
+    color: #efefef;
+    margin-bottom: 5px; 
+}
+
+.pie-pagina .grupo1 .caja .redes {
+    display: flex;
+}
+
+.pie-pagina .grupo1 .caja .redes a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 40px;
+    margin-right: 5px; 
+    background-color: #AED1E6;
+    text-align: center;
+    transition: all 300ms ease;
+    border-radius: 10px;
+}
+
+.pie-pagina .grupo1 .caja .redes a:hover {
+    background-color: aliceblue;
+}
+
+.pie-pagina .grupo2 {
+    padding: 10px 15px;
+    text-align: center;
+    color: white;
+}
+
+.pie-pagina .grupo2 small {
+    font-size: 15px;
+}
+
+.img-redes {
+    width: 45px;
+}
+
+@media screen and (max-width:800px) {
+    .pie-pagina .grupo1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px; 
+        padding: 15px 0; 
+    }
+}
+
+
+/*............Aside..................*/
+.div-aside {
+    flex: 2;
+    padding: 25px;
+    margin: 20px;
+    background-color: #712932;
+    color: white;
+    font-size: 19px;
+}
+
+.aside-titulo{
+    text-align: center;
+    font: bold 55px roboto;
+}
+
+.aside-info{
+    flex: 0 0 30%;
+}
+
+.tar-titulo{
+    text-align: center;
+}
+
+/*............Productos..................*/
+.container-1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tarjetas {
+    flex: 1;
+    transition: all 0.2s ease-in-out;
+}
+
+.tarjetas:hover {
+    -webkit-box-shadow: 0px -2px 21px 1px rgba(0,0,0,0.65);
+    -moz-box-shadow: 0px -2px 21px 1px rgba(0,0,0,0.65);
+    box-shadow: 0px -2px 21px 1px rgba(0,0,0,0.65);
+    background-color: #ff7a7a86;
+}
+
+.card-img-top {
+    width: 80%; 
+    height: 80%;
+}
