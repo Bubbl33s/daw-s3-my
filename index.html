@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Maki Yumpu</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="img/logo.png">
 </head>
 <body>
@@ -15,7 +15,7 @@
     </header>
 
     <!-- Barra de Herramientes -->
-    <nav class="navbar navbar-expand-lg menu">
+    <nav class="navbar navbar-expand-lg menu p-0">
         <div class="container">
             <a class="navbar-brand" href="#"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +34,7 @@
     
     <main>
         <div class="container-1">
-            <div class="col-md-12 col-sm-12 div-aside">
+            <div class="col-md-12 col-sm-12 div-aside rounded">
                 <aside class="aside-info">
                     <h1 class="aside-titulo"></h1>
                     <p>¿Interesado en llevar a casa una pieza única de Maki Yumpu? 
@@ -69,50 +69,57 @@
         </div>
 
         <!-- Tarjetas/Productos -->
-        <div class="container-2">
-            <div class="card col-sm-12 col-md-6 col-lg-4 tarjetas" style="width: 18rem;">
-                <img src="img/producto.png" class="card-img-top mx-auto producto-img" alt="producto">
-                <div class="card-body">
-                    <h5 class="tar-titulo">Chompa de lana de ganchillo</h5>
-                    <p class="card-text">La magia está en que cada chompa es única, con detalles especiales que alguien creó con cariño. 
-                        No es solo ropa, es como llevar una pequeña obra de arte. Te mantiene caliente en días fríos, 
-                        pero también te hace lucir genial. Además, al comprar una, 
-                        estás apoyando a personas talentosas que hicieron algo especial solo para ti.</p>
+        <div class="row w-100 mx-auto">
+            <div class="container-2 col-md-6 col-lg-4 col-xl-3 d-flex">
+                <div class="card tarjetas rounded my-3 w-100" style="width: 18rem;">
+                    <img src="img/producto.png" class="card-img-top mx-auto producto-img" alt="producto">
+                    <div class="card-body">
+                        <h5 class="tar-titulo">Chompa de lana de ganchillo</h5>
+                        <p class="card-text">La magia está en que cada chompa es única, con detalles especiales que alguien creó con cariño. 
+                            No es solo ropa, es como llevar una pequeña obra de arte. Te mantiene caliente en días fríos, 
+                            pero también te hace lucir genial. Además, al comprar una, 
+                            estás apoyando a personas talentosas que hicieron algo especial solo para ti.</p>
+                    </div>
                 </div>
             </div>
-            <div class="card col-sm-12 col-md-6 col-lg-4 tarjetas" style="width: 18rem;">
-                <img src="img/producto2.png" class="card-img-top mx-auto producto-img" alt="producto">
-                <div class="card-body">
-                    <h5 class="tar-titulo">Chompa oversized</h5>
-                    <p class="card-text">Imagina envolverte en una comodidad sin límites con nuestra chompa oversized. 
-                        Esta prenda ha sido diseñada para brindarte un estilo relajado y a la moda. 
-                        ¿Te encanta la sensación de estar acogedoramente abrigado mientras te desplazas por la vida? 
-                        La chompa oversized es tu aliada perfecta.</p>
+            <div class="container-2 col-md-6 col-lg-4 col-xl-3 d-flex">
+                <div class="card tarjetas rounded my-3" style="width: 18rem;">
+                    <img src="img/producto2.png" class="card-img-top mx-auto producto-img" alt="producto">
+                    <div class="card-body">
+                        <h5 class="tar-titulo">Chompa oversized</h5>
+                        <p class="card-text">Imagina envolverte en una comodidad sin límites con nuestra chompa oversized. 
+                            Esta prenda ha sido diseñada para brindarte un estilo relajado y a la moda. 
+                            ¿Te encanta la sensación de estar acogedoramente abrigado mientras te desplazas por la vida? 
+                            La chompa oversized es tu aliada perfecta.</p>
+                    </div>
                 </div>
             </div>
-            <div class="card col-sm-12 col-md-6 col-lg-4 tarjetas" style="width: 18rem;">
-                <img src="img/producto4.png" class="card-img-top mx-auto producto-img" alt="producto">
-                <div class="card-body">
-                    <h5 class="tar-titulo">Chalina</h5>
-                    <p class="card-text">Esta chalina no solo te brinda calidez, 
-                        sino que también añade un toque de sofisticación a cualquier conjunto. 
-                        Con su tejido suave y ligero, es ideal para cualquier estación del año.</p>
+            <div class="container-2 col-md-6 col-lg-4 col-xl-3 d-flex">
+                <div class="card tarjetas rounded my-3 w-100" style="width: 18rem;">
+                    <img src="img/producto4.png" class="card-img-top mx-auto producto-img" alt="producto">
+                    <div class="card-body">
+                        <h5 class="tar-titulo">Chalina</h5>
+                        <p class="card-text">Esta chalina no solo te brinda calidez, 
+                            sino que también añade un toque de sofisticación a cualquier conjunto. 
+                            Con su tejido suave y ligero, es ideal para cualquier estación del año.</p>
+                    </div>
                 </div>
             </div>
-            <div class="card col-sm-12 col-md-6 col-lg-4 tarjetas" style="width: 18rem;">
-                <img src="img/producto3.png" class="card-img-top mx-auto producto-img" alt="producto" class="producto">
-                <div class="card-body">
-                    <h5 class="tar-titulo">Gorro de Lana</h5>
-                    <p class="card-text">Nuestro gorro de lana está confeccionado con materiales de alta calidad que te 
-                        proporcionarán un confort excepcional. Su diseño moderno y versátil lo convierte en el complemento 
-                        perfecto para cualquier ocasión. </p>
+            <div class="container-2 col-md-6 col-lg-4 col-xl-3 d-flex">
+                <div class="card tarjetas rounded my-3 w-100" style="width: 18rem;">
+                    <img src="img/producto3.png" class="card-img-top mx-auto producto-img" alt="producto" class="producto">
+                    <div class="card-body">
+                        <h5 class="tar-titulo">Gorro de Lana</h5>
+                        <p class="card-text">Nuestro gorro de lana está confeccionado con materiales de alta calidad que te 
+                            proporcionarán un confort excepcional. Su diseño moderno y versátil lo convierte en el complemento 
+                            perfecto para cualquier ocasión. </p>
+                    </div>
                 </div>
             </div>
         </div>
 
-
     <!-- Footer -->
-    <footer class="pie-pagina">
+    <footer class="pie-pagina py-4">
         <div class="grupo1">
             <div class="caja">
                 <figure>
